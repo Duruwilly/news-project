@@ -89,9 +89,9 @@ const Footer = () => {
                 <input
                   type="text"
                   required
-                  placeholder="FullName"
+                  placeholder="Email Address"
                   name="name"
-                  className="my-2 mx-0 w-full p-3 block bg-white text-gray-300 focus:outline-none focus:border focus:border-primary-color focus:text-black placeholder-whit"
+                  className="my-2 mx-0 w-full p-3 block bg-white text-gray-300 focus:outline-none focus:border focus:border-primary-color focus:text-black"
                 />
                 <button
                   type="submit"
