@@ -19,7 +19,7 @@ export const NewsProvider = ({ children }) => {
   const getNewsData = async (category) => {
     try {
       const res = await axios.get(
-        `${apiEndPoint}top-headlines?country?&category=${category}&language=en&apiKey=${apikey}`
+        `https://newsapi.org/v2/top-headlines?country?&category=${category}&language=en&apiKey=7f38764e300e43cda8f1fb592bb4694b`
       );
       setNewsContent(res.data.articles);
       setIsLoading(false);
